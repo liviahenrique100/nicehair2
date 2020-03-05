@@ -1,0 +1,4 @@
+ERROR  : 17:05:05: Error: Error connecting to the server: FATAL:  Peer authentication failed for user "postgres"
+
+ERROR  : 17:05:11: Error: Error connecting to the server: FATAL:  Peer authentication failed for user "postgres"
+
