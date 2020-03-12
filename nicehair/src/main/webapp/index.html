@@ -1,10 +1,40 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Start Page</title>
+        <title>Nice Hair</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <form oninput="x.value=parseInt(a.value)" action="Servlets" method="post">
+            <fieldset>
+                <legend>Dados Cadastrais</legend>
+                    <div>
+                        <label for="nome">Nome: </label>
+                        <input type="text" name="nome" placeholder="Digite o seu nome">
+                        <br><br>
+                        <label for="sobrenome">Sobrenome: </label>
+                        <input type="text" name="sobrenome" placeholder="Digite o seu sobrenome">
+                        <br><br>
+                        <label for="senha">Senha: </label>
+                        <input type="password" name="senha" placeholder="Digite a sua senha">
+                        <br><br>
+                        <label>Sexo: </label>
+                        <input type="radio" name="sexo" value="masculino"> Masculino
+                        <input type="radio" name="sexo" value="feminino"> Feminino
+                        <input type="radio" name="sexo" value="outros"> Não te interessa
+                        <br><br>
+                        <label for="email">E-mail: </label>
+                        <input type="text" name="email" placeholder="Digite o seu e-mail">
+                        <br><br>
+                        <label for="cpf">CPF: </label>
+                        <input type="text" name="cpf" placeholder="Digite o seu CPF">
+                        <br><br>
+                        <label for="data">Data de nascimento: </label> 
+                        <input type="date" name="data">
+                        <br><br>
+                        <input type="submit" value="Enviar dados">
+                    </div>
+            </fieldset>
+        </form>
     </body>
 </html>
