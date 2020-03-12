@@ -1,0 +1,10 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<%! int cont=0;
+//declarei como static
+%>
+Essa página ja foi acessada.
+<%=
+//usando expressores para imprimir 
+++cont 
+%>
